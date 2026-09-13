@@ -1,0 +1,29 @@
+# Model files (host separately - see README)
+*.h5
+*.keras
+*.pkl
+
+# Dataset (host separately - see README)
+dataset/
+data/
+training/
+testing/
+normal/
+abnormal/
+
+# Database (contains user credentials)
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
